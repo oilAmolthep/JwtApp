@@ -1,0 +1,34 @@
+{
+  "profiles": {
+    "JwtApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sqlDebugging": false,
+      "dotnetRunMessages": true,
+      "nativeDebugging": false,
+      "applicationUrl": "http://localhost:5100",
+      "jsWebView2Debugging": false,
+      "hotReloadEnabled": false
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sqlDebugging": false,
+      "nativeDebugging": false
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:22681",
+      "sslPort": 44336
+    }
+  }
+}
